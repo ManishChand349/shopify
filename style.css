@@ -503,3 +503,17 @@ font-size: 32px;
 .right-goal{
      margin-left: 80px;
 }
+.news{
+     margin-left: 190px;
+     margin-top: 70px;
+     
+}
+.news img{
+     width: 1100px;
+     height: 300px;
+}
+.pattrenImg{
+     position: absolute;
+     top: 3560px;
+     left: 190px;
+}
