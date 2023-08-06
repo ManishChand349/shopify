@@ -1,0 +1,505 @@
+*{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     text-decoration: none;
+     font-family: 'Poppins', sans-serif;
+
+}
+.top-head{
+     display: flex;
+     justify-content: space-between;
+     height: 50px;
+     background: #CBAB81;
+
+}
+.phone{
+     display: flex;
+     justify-content: space-between;
+     margin-left: 120px;
+     align-items: center;
+}
+.phone p{
+     color: #ffff;
+}
+.phone-div{
+     display: flex;
+}
+.free-shopping{
+     margin-left: 100px;
+}
+.fa-phone-alt{
+color: #FFFFFF;
+margin-right: 10px;
+cursor: pointer;
+}
+.group-5{
+     display: flex;
+     margin-right: 100px;
+     align-items: center;
+}
+.group-5 img{
+     width: 105px;
+     height: 39px;
+     cursor: pointer;
+}
+nav{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 95px;
+     /* border-bottom: solid 1px ; */
+     box-shadow: 1px 3px 13px #00000026;
+     padding-right: 50px;
+}
+nav img{
+     margin-left: 60px;
+
+}
+.card{
+     display: flex;
+     font-size: 15px;
+}
+.card .amount{
+     margin-right: 65px;
+     margin-left: 10px;
+}
+.search{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.search input{
+     height: 41px;
+     width: 565px;
+     border-radius: 24px;
+     padding: 20px;
+     border: solid 1px #FF4C11;
+}
+.fa-search{
+     position: relative;
+     left: -43px;
+     color: #fff;
+     background: #FF4C11;
+     height: -1px;
+     padding: 13px;
+     border-top-right-radius: 24px;
+     border-bottom-right-radius: 24px;
+}
+.cate{
+     margin-top: 20px;
+     width: auto;
+     padding: 0px 26px;
+}
+.cate ul {
+     display: flex;
+     justify-content: space-around;
+
+}
+ul li a{
+     font-size: 18px;
+     font-weight: 600;
+     color: #000;
+}
+.main{
+     display: flex;
+     margin-top: 30px;
+     height: 500px;
+     overflow-y: hidden;
+}
+.main img{
+     height: 610px;
+     width: 711px;
+}
+.left{
+     position: absolute;
+     top: 350px;
+     left: 120px;
+     width: 630px;
+     display: flex;
+     flex-direction: column;
+
+}
+.left p{
+     font-size: 46px;
+     font-weight: 200;
+}
+.left span{
+
+     color: #303030;
+     font-size: 22px;
+     margin: 10px;
+}
+.left button{
+     width: 130px;
+     margin: 20px 20px 20px 0px;
+     padding: 13px 15px;
+     border-radius: 30px;
+     border: none;
+     color: #FF4C11;
+     font-size: 15px;
+     font-weight: 600;
+}
+.right{
+     position: absolute;
+     display: flex;
+     /* top: 450px;
+     left: 760px; */
+}
+.right img{
+     width: 204px;
+height: 261px;
+}
+.right .col1{
+     position: absolute;
+     width: 204px;
+     height: 231px;
+     top: 250px;
+     left: 760px;
+}
+.right .col2{
+     position: absolute;
+     width: 167px;
+     height: 248px;
+     top: 200px;
+     left: 990px;
+}
+.right .col3{
+     position: absolute;
+     width: 204px;
+     height: 261px;
+     top: 180px;
+     left: 1186px;
+}
+.service{
+     width: 70%;
+     margin-left: 190px;
+}
+.service-div{
+     position: relative;
+     top: -80px;
+     left: 100px;
+     
+}
+.service-div .circle-1{
+     margin-left: 0px;
+     margin-right: 80px;
+}
+.service-div .circle-2{
+     margin-left: 50px;
+     margin-right: 20px;
+}
+.service-div .circle-3{
+     margin-left: 90px;
+     margin-right: 20px;
+}
+.service-div .circle-4{
+     margin-left: 100px;
+}
+.service-div-2 .icon1{
+     margin-left: 40px;
+}
+.service-div-2 .icon2{
+     margin-left: 189px;
+}
+.service-div-2 .icon3{
+     margin-left: 180px;
+}
+.service-div-2 .icon4{
+     margin-left: 180px;
+}
+.service-div-2{
+     position: relative;
+     display: flex;
+     top: -180px;
+     left: 90px;
+}
+.free-shi,.return-box,.payment,.support{
+     position: absolute;
+     top: 790px;
+     left: 280px;
+     text-align: center;
+     font-size: 12px;
+}
+.return-box{
+     left: 520px;
+}
+.payment{
+     left: 758px;
+
+}
+.support{
+     left: 1020px;
+}
+
+.line{
+     height: 1px;
+     margin-left: 160px;
+     max-width: 80%;
+     background: #FF4C11;
+}
+.heading{
+     position: relative;
+     top: -30px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     
+}
+.heading h1{
+     background: #FFFFFF;
+     padding: 2px 20px;
+     font-size: 40px;
+}
+.products{
+     margin-left: 100px;
+     margin-right: 100px;
+}
+.product{
+     display: grid;
+  grid-template-columns: repeat(5, 1fr);    
+  column-gap: 10px;
+}
+.product img{
+     margin-top: 10px;
+}
+.col{
+     border: 1px solid #0000002f ;
+     display: flex; 
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     padding: 20px;
+}
+.col p{
+     margin: 10px 0;
+}
+
+.col h2{
+     margin: 10px 0px;
+}
+
+.col button {
+     padding: 8px 20px;
+     background: #FFAC01;
+     border: none;
+     font-size: 15px;
+     color: #fff;
+     border-radius: 20px;
+     margin-top: 20px;
+     cursor: pointer;
+}
+
+.left-fa{
+     position: relative;
+     top: 200px;
+     left: -60px;
+     font-size: 32px;
+}
+.right-fa{
+position: relative;
+top: -235px;
+left: 1260px;
+font-size: 32px;
+}
+.bottom-div{
+     display: flex;
+     justify-content: center;
+     column-gap: 10px;
+     margin-bottom: 150px;
+}
+.bottom {
+     display: flex;
+     width: 15px;
+     gap: 30px;
+     height: 15px;
+     border-radius: 50%;
+     background: #C4C4C4;
+   }
+.bottom-1{
+     background: #FF4C11;
+}
+.categoris-section{
+     width: 80%;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     margin-left: 120px;
+     column-gap: 20px;
+     row-gap: 10px;
+     margin-top: 30px;
+}
+
+.img-1{
+     position: absolute;
+     top: 1762px;
+     left: 391px;
+}
+.img-2{
+     position: absolute;
+     top: 1762px;
+     left: 1000px;
+}
+.img-3{
+     position: absolute;
+     top: 2020px;
+     left: 392px;
+}
+.img-4{
+     position: absolute;
+     top: 2021px;
+     left: 967px;
+}
+.detail-1{
+     position: absolute;
+     top: 1802px;
+     left: 181px;
+}
+.detail-2{
+     position: absolute;
+     top: 1802px;
+     left: 790px;
+}
+  
+.detail-3{
+     position: absolute;
+     top: 2055px;
+     left: 181px;
+}
+.detail-4{
+     position: absolute;
+     top: 2055px;
+     left: 790px;
+}
+
+.btn-1{
+     padding: 8px 15px;
+     margin-top: 50px;
+     border-radius: 20px;
+     border: none;
+     color: #FF4C11;
+     font-weight: 600;
+
+}
+
+.detail-1-p{
+     font-size: 18px;
+     color:  #5A5A5A;
+
+}
+.design{
+     margin-top: 100px;
+     overflow-x: hidden;
+}
+.design-heading{
+     position: absolute;
+     top: 2450px;
+     left: 350px;
+     font-size: 45px;
+     font-weight: normal;
+     text-align: center;
+     color: #252525;
+
+}
+.design-pera{
+     position: absolute;
+     top: 2600px;
+     left: 541px;
+     font-size: 22px;
+}
+.design-btn{
+     position: absolute;
+     top: 2680px;
+     left: 655px;
+     padding: 13px 21px;
+     border: none;
+     border-radius: 20px;
+     background: #FF4C11;
+     font-size: 15px;
+     color: #fff;
+     cursor: pointer;
+}
+.plasticImg{
+     position: absolute;
+     top: 2530px;
+     left: 250px;
+     width: 152px;
+     height: 171px;
+     transform: rotate(-20deg);
+}
+.plasticImg-2{
+     position: absolute;
+     top: 2530px;
+     left:1100px;
+     transform: rotate(20deg);
+     width: 152px;
+     height: 171px;
+}
+.groupImg{
+     position: absolute;
+     top: 2690px;
+     left:430px;
+}
+.h1-our-goal{
+     display: flex;
+     align-items: center;
+     margin-bottom: 30px;
+     margin-top: 50px;
+     
+}
+.h1-our-goal h1{
+     font-size: 40px;
+     
+}
+.line-3{
+     width: 430px;
+     height: 1px;
+     background: #FF4C11;
+     margin-left: 70px;
+}
+.our-goal{
+     margin-top: 100px;
+     margin-left: 130px;
+}
+.right-goal{
+     margin-top: 20px;
+}
+.para-2{
+     font-size: 20px;
+     color: #5A5A5A;
+     line-height: 36px;
+}
+.read-me-btn{
+     font-size: 15px;
+     color: #fff;
+     background: #FF4C11;
+     border-radius: 40px;
+     border: none;
+     padding: 15px 29px;
+     margin-top: 50px;
+
+}
+.our-goal{
+     display: flex;
+}
+.markG-2-bg{
+     background: #fff;
+     padding: 115px;
+     width: 100px;
+     height: 100px;
+     position: absolute;
+     left: 880px;
+     top: 3290px;
+     border-radius: 50%;
+}
+.MarkG-2{
+     position: absolute;
+     left: 890px;
+     top: 3300px;
+     
+}
+.right-goal{
+     margin-left: 80px;
+}
