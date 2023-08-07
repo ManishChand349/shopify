@@ -510,10 +510,51 @@ font-size: 32px;
 }
 .news img{
      width: 1100px;
-     height: 300px;
+     height: 380px;
 }
 .pattrenImg{
      position: absolute;
      top: 3560px;
      left: 190px;
+}
+.news-heading{
+     position: absolute;
+     top: 3620px;
+     left: 456px;
+     font-size: 40px;
+}
+.news-para{
+     position: absolute;
+     top: 3685px;
+     left: 496px;
+     font-size: 16px;
+     color: #5A5A5A;
+}
+.news-search{
+     position: absolute;
+     top: 3785px;
+     left: 356px;
+     margin-bottom: 200px;
+
+}
+.news-search input{
+     padding: 25px 25px;
+     width: 800px;
+     border: none;
+     border-radius: 50px;
+     padding-left: 30px;
+}
+.news-btn{
+     position: relative;
+     left: -171px;
+     top: 3px;
+     padding: 22px 61px;
+     border-radius: 50px;
+     border: none;
+     background: #FF4C11;
+     color: #fff;
+     font-size: 18px;
+     cursor: pointer;
+
+
 }
